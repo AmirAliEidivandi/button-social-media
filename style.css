@@ -1,4 +1,5 @@
 * {
+    user-select: none;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -37,6 +38,7 @@ body {
     align-items: center;
     position: relative;
     transition: box-shadow 700ms ease, color 700ms ease;
+    cursor: pointer;
 }
 
 .toggle-presed {
